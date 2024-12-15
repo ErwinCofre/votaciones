@@ -1,0 +1,19 @@
+.p-splitbutton {
+  border-radius: 0.7rem;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+
+.p-selectbutton .p-button-label {
+  font-size: 0.8rem;
+}
+
+.p-selectbutton .p-button.p-highlight {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.p-selectbutton .p-button.p-highlight:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+}

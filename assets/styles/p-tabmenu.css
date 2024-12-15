@@ -1,0 +1,15 @@
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+  background: #ffffff;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:hover {
+  margin-right: 0;
+  text-decoration: underline !important;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:focus {
+  box-shadow: none !important;
+}
+

@@ -1,0 +1,96 @@
+.p-button {
+  border-radius: 0.7rem;
+  font-size: 0.8rem !important;
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+.p-button-reversed-light {
+  background: var(--light-100) !important;
+  border-color: var(--light-100) !important;
+  color: var(--light-10) !important;
+}
+
+.p-button-reversed-light:hover {
+  background-color: var(--light-90) !important;
+  border-color: var(--light-90) !important;
+  color: var(--light-30) !important;
+}
+
+.p-button-reversed-primary {
+  background-color: var(--primary-100) !important;
+  border-color: var(--primary-100) !important;
+  color: var(--primary) !important;
+}
+
+.p-button-reversed-primary:hover {
+  background-color: var(--primary-90) !important;
+  border-color: var(--primary-90) !important;
+  color: var(--primary-30) !important;
+}
+
+.p-button-reversed-primary:active {
+  background-color: var(--primary-80) !important;
+  border-color: var(--primary-80) !important;
+  color: var(--primary-10) !important;
+}
+
+.p-button-reversed-primary.disabled,
+.p-button-reversed-primary:disabled {
+  color: var(--primary-50) !important;
+  background-color: var(--primary-100) !important;
+  border-color: var(--primary-100) !important;
+}
+
+.p-button:enabled:active {
+  background: var(--primary-50);
+  color: white;
+  border-color: var(--primary-50);
+}
+
+.p-button:enabled:hover {
+  background: var(--primary-60);
+  color: white;
+  border-color: var(--primary-60);
+}
+
+.p-button:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem var(--primary-90);
+}
+
+.p-button-outline {
+  border-width: 2px;
+  color: var(--primary);
+  background: transparent;
+  border-color: var(--primary);
+}
+
+.p-button-outline:hover {
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.p-button-outline:active {
+  color: #fff;
+  background-color: var(--primary-40);
+  border-color: var(--primary-40);
+}
+
+.p-button-outline-success {
+  color: var(--success) !important;
+  border-color: var(--success) !important;
+}
+
+.p-button-outline-success:hover {
+  color: #fff !important;
+  background-color: var(--success) !important;
+  border-color: var(--success) !important;
+}
+
+.p-button-outline-success:active {
+  color: #fff !important;
+  background-color: var(--success-40) !important;
+  border-color: var(--success-40) !important;
+}

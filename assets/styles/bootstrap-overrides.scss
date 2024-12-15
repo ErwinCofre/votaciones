@@ -1,0 +1,468 @@
+.form-control {
+    border: 1px solid #ced4da;
+}
+
+.form-control:hover {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.form-control:focus {
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 0 0.2rem var(--primary-90);
+}
+
+a {
+    color: var(--primary);
+}
+
+.btn-link {
+    color: var(--primary);
+}
+
+.text-alternate {
+    color: var(--alternate);
+}
+.text-danger {
+    color: var(--danger);
+}
+.text-dark {
+    color: var(--dark);
+}
+.text-focus {
+    color: var(--focus);
+}
+.text-info {
+    color: var(--info);
+}
+.text-light {
+    color: var(--light);
+}
+.text-primary {
+    color: var(--primary);
+}
+.text-secondary {
+    color: var(--secondary);
+}
+.text-success {
+    color: var(--success);
+}
+.text-alternate {
+    color: var(--warning);
+}
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover {
+    background-color: var(--primary-50);
+    border-color: var(--primary-50);
+}
+.btn-primary:active {
+    background-color: var(--primary-40);
+    border-color: var(--primary-40);
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: var(--primary-80);
+    border-color: var(--primary-80);
+}
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-outline-primary:active {
+    color: #fff;
+    background-color: var(--primary-40);
+    border-color: var(--primary-40);
+}
+.bg-primary {
+    background-color: var(--primary);
+}
+.btn-secondary {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: white;
+}
+.btn-secondary:hover {
+    background-color: var(--secondary-50);
+    border-color: var(--secondary-50);
+    color: white;
+}
+.btn-secondary:active {
+    background-color: var(--secondary-40);
+    border-color: var(--secondary-40);
+    color: white;
+}
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+    color: #fff;
+    background-color: var(--secondary-80);
+    border-color: var(--secondary-80);
+}
+.btn-outline-secondary {
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+.btn-outline-secondary:active {
+    color: #fff;
+    background-color: var(--secondary-40);
+    border-color: var(--secondary-40);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.btn-focus {
+    background-color: var(--focus);
+    border-color: var(--focus);
+}
+.btn-focus:hover {
+    background-color: var(--focus-50);
+    border-color: var(--focus-50);
+}
+.btn-focus:active {
+    background-color: var(--focus-40);
+    border-color: var(--focus-40);
+}
+.btn-focus.disabled,
+.btn-focus:disabled {
+    color: #fff;
+    background-color: var(--focus-80);
+    border-color: var(--focus-80);
+}
+.btn-outline-focus {
+    color: var(--focus);
+    border-color: var(--focus);
+}
+.btn-outline-focus:hover {
+    color: #fff;
+    background-color: var(--focus);
+    border-color: var(--focus);
+}
+.btn-outline-focus:active {
+    color: #fff;
+    background-color: var(--focus-40);
+    border-color: var(--focus-40);
+}
+.bg-focus {
+    background-color: var(--focus);
+}
+.btn-alternate {
+    background-color: var(--alternate);
+    border-color: var(--alternate);
+}
+.btn-alternate:hover {
+    background-color: var(--alternate-50);
+    border-color: var(--alternate-50);
+}
+.btn-alternate:active {
+    background-color: var(--alternate-40);
+    border-color: var(--alternate-40);
+}
+.btn-alternate.disabled,
+.btn-alternate:disabled {
+    color: #fff;
+    background-color: var(--alternate-80);
+    border-color: var(--alternate-80);
+}
+.btn-outline-alternate {
+    color: var(--alternate);
+    border-color: var(--alternate);
+}
+.btn-outline-alternate:hover {
+    color: #fff;
+    background-color: var(--alternate);
+    border-color: var(--alternate);
+}
+.btn-outline-alternate:active {
+    color: #fff;
+    background-color: var(--alternate-40);
+    border-color: var(--alternate-40);
+}
+.bg-alternate {
+    background-color: var(--alternate);
+}
+.btn-danger {
+    background-color: var(--danger);
+    border-color: var(--danger);
+}
+.btn-danger:hover {
+    background-color: var(--danger-50);
+    border-color: var(--danger-50);
+}
+.btn-danger:active {
+    background-color: var(--danger-40);
+    border-color: var(--danger-40);
+}
+.btn-danger.disabled,
+.btn-danger:disabled {
+    color: #fff;
+    background-color: var(--danger-80);
+    border-color: var(--danger-80);
+}
+.btn-outline-danger {
+    color: var(--danger);
+    border-color: var(--danger);
+}
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: var(--danger);
+    border-color: var(--danger);
+}
+.btn-outline-danger:active {
+    color: #fff;
+    background-color: var(--danger-40);
+    border-color: var(--danger-40);
+}
+.bg-danger {
+    background-color: var(--danger);
+}
+.btn-warning {
+    background-color: var(--warning);
+    border-color: var(--warning);
+}
+.btn-warning:hover {
+    background-color: var(--warning-50);
+    border-color: var(--warning-50);
+}
+.btn-warning:active {
+    background-color: var(--warning-40);
+    border-color: var(--warning-40);
+}
+.btn-warning.disabled,
+.btn-warning:disabled {
+    color: #fff;
+    background-color: var(--warning-80);
+    border-color: var(--warning-80);
+}
+.btn-outline-warning {
+    color: var(--warning);
+    border-color: var(--warning);
+}
+.btn-outline-warning:hover {
+    color: #fff;
+    background-color: var(--warning);
+    border-color: var(--warning);
+}
+.btn-outline-warning:active {
+    color: #fff;
+    background-color: var(--warning-40);
+    border-color: var(--warning-40);
+}
+.bg-warning {
+    background-color: var(--warning);
+}
+.btn-success {
+    background-color: var(--success);
+    border-color: var(--success);
+}
+.btn-success:hover {
+    background-color: var(--success-50);
+    border-color: var(--success-50);
+}
+.btn-success:active {
+    background-color: var(--success-40);
+    border-color: var(--success-40);
+}
+.btn-success.disabled,
+.btn-success:disabled {
+    color: #fff;
+    background-color: var(--success-80);
+    border-color: var(--success-80);
+}
+.btn-outline-success {
+    color: var(--success);
+    border-color: var(--success);
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: var(--success);
+    border-color: var(--success);
+}
+.btn-outline-success:active {
+    color: #fff;
+    background-color: var(--success-40);
+    border-color: var(--success-40);
+}
+.bg-success {
+    background-color: var(--success);
+}
+.btn-info {
+    background-color: var(--info);
+    border-color: var(--info);
+}
+.btn-info:hover {
+    background-color: var(--info-50);
+    border-color: var(--info-50);
+}
+.btn-info:active {
+    background-color: var(--info-40);
+    border-color: var(--info-40);
+}
+.btn-info.disabled,
+.btn-info:disabled {
+    color: #fff;
+    background-color: var(--info-80);
+    border-color: var(--info-80);
+}
+.btn-outline-info {
+    color: var(--info);
+    border-color: var(--info);
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: var(--info);
+    border-color: var(--info);
+}
+.btn-outline-info:active {
+    color: #fff;
+    background-color: var(--info-40);
+    border-color: var(--info-40);
+}
+.bg-info {
+    background-color: var(--info);
+}
+.btn-dark {
+    background-color: var(--dark);
+    border-color: var(--dark);
+}
+.btn-dark:hover {
+    background-color: var(--dark-50);
+    border-color: var(--dark-50);
+}
+.btn-dark:active {
+    background-color: var(--dark-40);
+    border-color: var(--dark-40);
+}
+.btn-dark.disabled,
+.btn-dark:disabled {
+    color: #fff;
+    background-color: var(--dark-80);
+    border-color: var(--dark-80);
+}
+.btn-outline-dark {
+    color: var(--dark);
+    border-color: var(--dark);
+}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: var(--dark);
+    border-color: var(--dark);
+}
+.btn-outline-dark:active {
+    color: #fff;
+    background-color: var(--dark-40);
+    border-color: var(--dark-40);
+}
+.bg-dark {
+    background-color: var(--dark);
+}
+.btn-light {
+    background-color: var(--light) !important;
+    border-color: var(--light) !important;
+    color: var(--light-10);
+}
+.btn-light:hover {
+    background-color: var(--light-50) !important;
+    border-color: var(--light-50) !important;
+}
+.btn-light:active {
+    background-color: var(--light-40) !important;
+    border-color: var(--light-40) !important;
+}
+.btn-light.disabled,
+.btn-light:disabled {
+    color: #fff !important;
+    background-color: var(--light-80) !important;
+    border-color: var(--light-80) !important;
+}
+.btn-outline-light {
+    color: var(--light);
+    border-color: var(--light);
+}
+.btn-outline-light:hover {
+    color: #fff;
+    background-color: var(--light);
+    border-color: var(--light);
+}
+.btn-outline-light:active {
+    color: #fff;
+    background-color: var(--light-40);
+    border-color: var(--light-40);
+}
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.badge-primary {
+    background: var(--primary);
+    color: white;
+}
+.badge-secondary {
+    background: var(--secondary);
+    color: white;
+}
+.badge-focus {
+    background: var(--focus);
+    color: white;
+}
+.badge-alternate {
+    background: var(--alternate);
+    color: white;
+}
+.badge-danger {
+    background: var(--danger);
+    color: white;
+}
+.badge-warning {
+    background: var(--warning);
+    color: white;
+}
+.badge-success {
+    background: var(--success);
+    color: white;
+}
+.badge-info {
+    background: var(--info);
+    color: white;
+}
+.badge-dark {
+    background: var(--dark);
+    color: white;
+}
+.badge-light {
+    background: var(--light);
+    color: black;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: var(--primary-40);
+    background-color: var(--primary);
+}
+
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+    color: #fff;
+    background-color: var(--primary-100);
+    border-color: var(--primary-90);
+}
+
+.form-control:disabled{
+    color: rgb(121, 121, 121);
+    border: none;
+}
+
+.table-hover tbody tr:hover{
+    background-color: var(--primary-100);
+}

@@ -1,0 +1,9 @@
+.p-steps .p-steps-item.p-highlight .p-steps-number {
+    background-color: var(--primary-100);
+    color: var(--primary);
+    border: 0;
+}
+
+.p-steps .p-steps-item .p-menuitem-link{
+  background: transparent;
+}

@@ -1,0 +1,44 @@
+.p-datatable-header {
+  border: 0 !important ;
+  border-bottom: 1px solid #e6ecef !important;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+div.p-datatable-scrollable-body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+div.p-datatable-scrollable-body::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+div.p-datatable-scrollable-body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, #e0e0e0 14%, #ccc 64%);
+}
+div.p-datatable-scrollable-body::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+.p-datatable-loading-overlay{
+  border-radius: 0.5rem
+}
+
+.p-datatable-tbody > tr > td {
+  padding: 0.35rem 0.5rem 0.35rem !important;
+}
+
+.p-datatable .p-sortable-column.p-highlight,
+.p-datatable .p-sortable-column.p-highlight .p-sortable-column-icon{
+  color: var(--primary);
+}
+
+.p-datatable .p-sortable-column.p-highlight:hover,
+.p-datatable .p-sortable-column.p-highlight:hover .p-sortable-column-icon {
+  color:var(--primary-70);
+}
+
+.p-datatable .p-sortable-column:focus{
+  box-shadow: inset 0 0 0 0.15rem var(--primary-90);
+}

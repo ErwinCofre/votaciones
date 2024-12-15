@@ -1,0 +1,101 @@
+/* .p-toast .p-toast-message{
+    border-radius: 0.35rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.p-toast-message-primary {
+    background-color: var(--primary-90) !important;
+    border: solid var(--primary) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--primary-20) !important;
+}
+.p-toast-message-primary .p-toast-icon-close {
+    color: var(--primary-20) !important;
+}
+.p-toast-message-secondary {
+    background-color: var(--secondary-90) !important;
+    border: solid var(--secondary) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--secondary-20) !important;
+}
+.p-toast-message-secondary .p-toast-icon-close {
+    color: var(--secondary-20) !important;
+}
+.p-toast-message-focus {
+    background-color: var(--focus-90) !important;
+    border: solid var(--focus) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--focus-20) !important;
+}
+.p-toast-message-focus .p-toast-icon-close {
+    color: var(--focus-20) !important;
+}
+.p-toast-message-alternate {
+    background-color: var(--alternate-90) !important;
+    border: solid var(--alternate) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--alternate-20) !important;
+}
+.p-toast-message-alternate .p-toast-icon-close {
+    color: var(--alternate-20) !important;
+}
+.p-toast-message-danger {
+    background-color: var(--danger-90) !important;
+    border: solid var(--danger) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--danger-20) !important;
+}
+.p-toast-message-danger .p-toast-icon-close {
+    color: var(--danger-20) !important;
+}
+.p-toast-message-warning {
+    background-color: var(--warning-90) !important;
+    border: solid var(--warning) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--warning-20) !important;
+}
+.p-toast-message-warning .p-toast-icon-close {
+    color: var(--warning-20) !important;
+}
+.p-toast-message-success {
+    background-color: var(--success-90) !important;
+    border: solid var(--success) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--success-20) !important;
+}
+.p-toast-message-success .p-toast-icon-close {
+    color: var(--success-20) !important;
+}
+.p-toast-message-info {
+    background-color: var(--info-90) !important;
+    border: solid var(--info) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--info-20) !important;
+}
+.p-toast-message-info .p-toast-icon-close {
+    color: var(--info-20) !important;
+}
+.p-toast-message-dark {
+    background-color: var(--dark-90) !important;
+    border: solid var(--dark) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--dark-20) !important;
+}
+.p-toast-message-dark .p-toast-icon-close {
+    color: var(--dark-20) !important;
+}
+.p-toast-message-light {
+    background-color: var(--light-90) !important;
+    border: solid var(--light) !important;
+    border-width: 0 0 0 6px !important;
+    color: var(--light-20) !important;
+}
+.p-toast-message-light .p-toast-icon-close {
+    color: var(--light-20) !important;
+}
+
+.p-toast .p-toast-message .p-toast-icon-close:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.062);
+} */

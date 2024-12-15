@@ -1,0 +1,519 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.content-type {
+  background: var(--primary-100);
+  color: var(--primary);
+  font-weight: 700;
+  padding: 0 .2rem;
+  border-radius: 5px;
+}
+
+.content-badge {
+  width: fit-content;
+  padding: 0.3rem;
+  display: inline-flex;
+  text-align: center;
+  border-radius: 0.5555rem;
+}
+
+.content-badge-lg > em {
+  font-size: 1.5rem;
+}
+
+.content-badge-lg {
+  padding: 1rem;
+  border-radius: 1.25rem;
+}
+
+.content-badge-md > em {
+  font-size: 1.2rem;
+}
+
+.content-badge-md {
+  padding: 0.8rem;
+  border-radius: 0.7777rem;
+}
+
+.content-elearning {
+  background: #ccf5f6;
+  color: darkturquoise;
+}
+
+.content-online {
+  background: #fce6fc;
+  color: violet;
+}
+
+.content-classroom {
+  background: #ffedcc;
+  color: orange;
+}
+
+.content-primary {
+  background: var(--primary-100);
+  color: var(--primary);
+}
+
+.content-secondary {
+  background: var(--secondary-100);
+  color: var(--secondary);
+}
+
+.content-focus {
+  background: var(--focus-100);
+  color: var(--focus);
+}
+
+.content-alternate {
+  background: var(--alternate-100);
+  color: var(--alternate);
+}
+
+.content-danger {
+  background: var(--danger-100);
+  color: var(--danger);
+}
+
+.content-warning {
+  background: var(--warning-100);
+  color: var(--warning);
+}
+
+.content-success {
+  background: var(--success-100);
+  color: var(--success);
+}
+
+.content-info {
+  background: var(--info-100);
+  color: var(--info);
+}
+
+.content-dark {
+  background: var(--dark-100);
+  color: var(--dark);
+}
+
+.content-light {
+  background: var(--light-100);
+  color: var(--light-10);
+}
+
+.pressable-badge {
+  width: fit-content;
+  padding: 0.3rem;
+  display: inline-flex;
+  text-align: center;
+}
+
+.border-circle {
+  padding: 0.8rem;
+  border-radius: 100%;
+}
+
+.menu-button {
+  transition: all 0.2s ease;
+
+  background-color: white;
+}
+
+.menu-button > em {
+  color: var(--light-60);
+}
+
+.menu-button:hover > em {
+  color: var(--primary);
+}
+
+.menu-button:hover {
+  background-color: var(--primary-100);
+}
+
+.menu-button:active {
+  background-color: var(--primary-90);
+}
+
+.menu-button:active > em {
+  color: var(--primary-50);
+}
+
+.vsm-link.active-item > em {
+  color: var(--primary-30) !important;
+}
+
+.animate-all-2ms {
+  transition: all 0.2s ease;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-app-white {
+  background-color: var(--background);
+}
+
+.box-shadow-navbar {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.notification {
+  width: 20px;
+  height: 20px;
+  background: var(--secondary);
+  border-radius: 100%;
+  position: absolute;
+  left: 1.8rem;
+  bottom: 1.8rem;
+  border: 4px solid #f1f4f6;
+}
+
+.p-inputtext:disabled {
+  color: rgb(121, 121, 121);
+  border: none;
+  background-color: #e9ecef;
+}
+
+.p-inputtext:disabled::placeholder {
+  color: rgb(121, 121, 121);
+}
+
+.btn-reversed-primary {
+  background-color: var(--primary-100);
+  border-color: var(--primary-100);
+  color: var(--primary);
+}
+
+.btn-reversed-primary:hover {
+  background-color: var(--primary-90) !important;
+  border-color: var(--primary-90) !important;
+  color: var(--primary-30) !important;
+}
+
+.btn-reversed-primary:active {
+  background-color: var(--primary-80);
+  border-color: var(--primary-80);
+  color: var(--primary-10);
+}
+
+.btn-reversed-primary.disabled,
+.btn-reversed-primary:disabled {
+  color: var(--primary-50);
+  background-color: var(--primary-100);
+  border-color: var(--primary-100);
+}
+
+.btn-reversed-secondary {
+  background-color: var(--secondary-100);
+  border-color: var(--secondary-100);
+  color: var(--secondary);
+}
+
+.btn-reversed-secondary:hover {
+  background-color: var(--secondary-90);
+  border-color: var(--secondary-90);
+  color: var(--secondary-30);
+}
+
+.btn-reversed-secondary:active {
+  background-color: var(--secondary-80);
+  border-color: var(--secondary-80);
+  color: var(--secondary-10);
+}
+
+.btn-reversed-secondary.disabled,
+.btn-reversed-secondary:disabled {
+  color: var(--secondary-50);
+  background-color: var(--secondary-100);
+  border-color: var(--secondary-100);
+}
+
+.btn-reversed-focus {
+  background-color: var(--focus-100);
+  border-color: var(--focus-100);
+  color: var(--focus);
+}
+
+.btn-reversed-focus:hover {
+  background-color: var(--focus-90);
+  border-color: var(--focus-90);
+  color: var(--focus-30);
+}
+
+.btn-reversed-focus:active {
+  background-color: var(--focus-80);
+  border-color: var(--focus-80);
+  color: var(--focus-10);
+}
+
+.btn-reversed-focus.disabled,
+.btn-reversed-focus:disabled {
+  color: var(--focus-50);
+  background-color: var(--focus-100);
+  border-color: var(--focus-100);
+}
+
+.btn-reversed-alternate {
+  background-color: var(--alternate-100);
+  border-color: var(--alternate-100);
+  color: var(--alternate);
+}
+
+.btn-reversed-alternate:hover {
+  background-color: var(--alternate-90);
+  border-color: var(--alternate-90);
+  color: var(--alternate-30);
+}
+
+.btn-reversed-alternate:active {
+  background-color: var(--alternate-80);
+  border-color: var(--alternate-80);
+  color: var(--alternate-10);
+}
+
+.btn-reversed-alternate.disabled,
+.btn-reversed-alternate:disabled {
+  color: var(--alternate-50);
+  background-color: var(--alternate-100);
+  border-color: var(--alternate-100);
+}
+
+.btn-reversed-danger {
+  background-color: var(--danger-100);
+  border-color: var(--danger-100);
+  color: var(--danger);
+}
+
+.btn-reversed-danger:hover {
+  background-color: var(--danger-90);
+  border-color: var(--danger-90);
+  color: var(--danger-30);
+}
+
+.btn-reversed-danger:active {
+  background-color: var(--danger-80);
+  border-color: var(--danger-80);
+  color: var(--danger-10);
+}
+
+.btn-reversed-danger.disabled,
+.btn-reversed-danger:disabled {
+  color: var(--danger-50);
+  background-color: var(--danger-100);
+  border-color: var(--danger-100);
+}
+
+.btn-reversed-warning {
+  background-color: var(--warning-100);
+  border-color: var(--warning-100);
+  color: var(--warning);
+}
+
+.btn-reversed-warning:hover {
+  background-color: var(--warning-90);
+  border-color: var(--warning-90);
+  color: var(--warning-30);
+}
+
+.btn-reversed-warning:active {
+  background-color: var(--warning-80);
+  border-color: var(--warning-80);
+  color: var(--warning-10);
+}
+
+.btn-reversed-warning.disabled,
+.btn-reversed-warning:disabled {
+  color: var(--warning-50);
+  background-color: var(--warning-100);
+  border-color: var(--warning-100);
+}
+
+.btn-reversed-success {
+  background-color: var(--success-100);
+  border-color: var(--success-100);
+  color: var(--success);
+}
+
+.btn-reversed-success:hover {
+  background-color: var(--success-90);
+  border-color: var(--success-90);
+  color: var(--success-30);
+}
+
+.btn-reversed-success:active {
+  background-color: var(--success-80);
+  border-color: var(--success-80);
+  color: var(--success-10);
+}
+
+.btn-reversed-success.disabled,
+.btn-reversed-success:disabled {
+  color: var(--success-50);
+  background-color: var(--success-100);
+  border-color: var(--success-100);
+}
+
+.btn-reversed-info {
+  background-color: var(--info-100);
+  border-color: var(--info-100);
+  color: var(--info);
+}
+
+.btn-reversed-info:hover {
+  background-color: var(--info-90);
+  border-color: var(--info-90);
+  color: var(--info-30);
+}
+
+.btn-reversed-info:active {
+  background-color: var(--info-80);
+  border-color: var(--info-80);
+  color: var(--info-10);
+}
+
+.btn-reversed-info.disabled,
+.btn-reversed-info:disabled {
+  color: var(--info-50);
+  background-color: var(--info-100);
+  border-color: var(--info-100);
+}
+
+.btn-reversed-dark {
+  background-color: var(--dark-100);
+  border-color: var(--dark-100);
+  color: var(--dark);
+}
+
+.btn-reversed-dark:hover {
+  background-color: var(--dark-90);
+  border-color: var(--dark-90);
+  color: var(--dark-30);
+}
+
+.btn-reversed-dark:active {
+  background-color: var(--dark-80);
+  border-color: var(--dark-80);
+  color: var(--dark-10);
+}
+
+.btn-reversed-dark.disabled,
+.btn-reversed-dark:disabled {
+  color: var(--dark-50);
+  background-color: var(--dark-100);
+  border-color: var(--dark-100);
+}
+
+.btn-reversed-light {
+  background-color: var(--light-100);
+  border-color: var(--light-100);
+  color: var(--light-10);
+}
+
+.btn-reversed-light:hover {
+  background-color: var(--light-90);
+  border-color: var(--light-90);
+  color: var(--light-30);
+}
+
+.btn-reversed-light:active {
+  background-color: var(--light-80);
+  border-color: var(--light-80);
+  color: var(--light-10);
+}
+
+.btn-reversed-light.disabled,
+.btn-reversed-light:disabled {
+  color: var(--light-50);
+  background-color: var(--light-100);
+  border-color: var(--light-100);
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #e0e0e0 14%, #cccccc 64%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, var(--light-100) 14%, var(--light) 64%);
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1rem;
+  height: 8px;
+}
+
+
+.opacity-0 {
+  opacity: 0 !important;
+}
+
+.opacity-1 {
+  opacity: 0.2 !important;
+}
+
+.opacity-2 {
+  opacity: 0.4 !important;
+}
+
+.opacity-3 {
+  opacity: 0.6 !important;
+}
+
+.opacity-4 {
+  opacity: .8 !important;
+}
+
+.opacity-5 {
+  opacity: 1 !important;
+}
+
+
+.points {
+  position: absolute;
+  z-index: 5;
+  top: .5rem;
+  right: .5rem;
+}
+
+.collaborator-img {
+  border-radius: 10%;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.collaborator-img-org-chart {
+  border-radius: 10%;
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+}

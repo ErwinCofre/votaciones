@@ -1,0 +1,6 @@
+.p-treenode-label{
+  width: 100% !important;
+}
+.p-tree .p-treenode-children{
+  padding: 0 0 0 1rem !important;
+}

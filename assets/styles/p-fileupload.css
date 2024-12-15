@@ -1,0 +1,12 @@
+.p-fileupload .p-fileupload-buttonbar .p-button {
+  background: var(--primary);
+  border: var(--primary);
+}
+
+.p-fileupload .p-progressbar .p-progressbar-value {
+  background: var(--primary);
+}
+
+.p-fileupload .p-fileupload-buttonbar .p-button {
+  display: none;
+}

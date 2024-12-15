@@ -1,0 +1,17 @@
+.ui-rating > a > span{ 
+    font-size: 35px !important;
+}
+
+.p-rating .p-rating-icon.pi-star{
+    color: var(--primary) !important;
+}
+
+.p-rating .p-rating-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem var(--primary-100);
+}
+
+.p-rating:not(.p-disabled):not(.p-readonly) .p-rating-icon:hover {
+    color: var(--primary);
+}

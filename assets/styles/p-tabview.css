@@ -1,0 +1,17 @@
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    color:var(--primary);
+    border-color: var(--primary);
+
+}
+
+.p-tabview-nav{
+    border: 0;
+    color:#bfd1f6
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem var(--primary-90);
+}
+

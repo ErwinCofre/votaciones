@@ -1,0 +1,13 @@
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider{
+    background-color: var(--success);
+}
+
+.p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {
+    background: var(--success-60);
+}
+
+.p-inputswitch.p-focus .p-inputswitch-slider {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem var(--success-80);
+}

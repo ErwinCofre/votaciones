@@ -1,0 +1,18 @@
+.p-dropdown {
+  height: calc(2.25rem + 2px);
+}
+
+.p-dropdown:not(.p-disabled):hover {
+  border-color: var(--primary);
+}
+
+.p-dropdown:not(.p-disabled).p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem var(--primary-90);
+  border-color: var(--primary);
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background-color: var(--primary-100);
+}

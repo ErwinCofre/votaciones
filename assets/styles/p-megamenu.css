@@ -1,0 +1,40 @@
+.p-megamenu .p-menuitem-link-active {
+  background-color: var(--primary);
+}
+
+.p-megamenu .p-menuitem-link-active:hover {
+  background-color: var(--primary);
+}
+.p-megamenu .p-menuitem-link-active:focus {
+  background-color: var(--primary);
+}
+
+.p-menuitem-link .p-ripple .ng-star-inserted {
+  background-color: var(--primary);
+}
+
+.p-megamenu {
+  border: 0px;
+}
+
+.p-megamenu
+  .p-megamenu-root-list
+  > .p-menuitem
+  > .p-menuitem-link-active
+  .p-menuitem-text {
+  color: #ffffff;
+}
+
+/* .p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:focus {
+  background-color: var(--primary);
+} */
+
+.p-megamenu
+  .p-megamenu-root-list
+  > .p-menuitem
+  > .p-menuitem-link:not(.p-disabled):hover {
+  background-color: var(--primary);
+}
+.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text{
+  color: #ffffff;
+}
